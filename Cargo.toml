@@ -16,7 +16,7 @@ default = ["capture-spantrace"]
 capture-spantrace = ["tracing-error", "color-spantrace"]
 
 [dependencies]
-eyre = { git = "https://github.com/duncanrhamill/eyre.git", branch="fmt-no_std-fix", default-features = false }
+eyre = { git = "https://github.com/duncanrhamill/eyre.git", branch="fmt-no_std-fix" }
 tracing-error = { version = "0.1.2", optional = true }
 color-backtrace = "0.4.0"
 backtrace = "0.3.48"
